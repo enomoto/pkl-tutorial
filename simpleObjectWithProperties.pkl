@@ -6,3 +6,14 @@ bird {
         species = "Columbia palumbus"
     }
 }
+
+exampleObjectWithJustIntElements {
+    100
+    42
+}
+
+exampleObjectWithMixedElements {
+    "Bird Breeder Conference"
+    (2000 + 24)
+    exampleObjectWithJustIntElements
+}
