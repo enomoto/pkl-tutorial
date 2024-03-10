@@ -1,0 +1,21 @@
+woodPigeon {
+    name = "Common wood pigeon"
+    taxonomy {
+        species = "Columba palumbus"
+    }
+}
+
+stockPigeon = (woodPigeon) {
+    name = "Stock pigeon"
+    taxonomy {
+        species = "Columba oenas"
+    }
+}
+
+dodo = (stockPigeon) {
+    name = "Dodo"
+    extinct = true
+    taxonomy {
+        species = "Raphus cucullatus"
+    }
+}
