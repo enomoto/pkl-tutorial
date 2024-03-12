@@ -1,0 +1,13 @@
+amends "TutorialPart.pkl"
+
+name = "Writing a Template"
+
+part = 3
+
+hasExercises = true
+
+amountLearned = 13.37
+
+duration = 30.min
+
+bandwidthRequirementPerSecond = 50.mb
